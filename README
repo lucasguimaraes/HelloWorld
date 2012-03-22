@@ -1,1 +1,17 @@
-Hello World
+public class Principal {
+    public static void main(String[] args) {
+
+      Cliente c1 = new Cliente();
+    	Cliente c2 = new Cliente();
+    	Cliente c3 = new Cliente("08420791652", 50000, "Lucas", "Oscar Vidal", "Profissional TI", "27/12/1990");
+
+    	Conta conta1 = new Conta();
+    	c1.setconta1();
+    	Conta conta2 = new Conta();
+    	c2.setconta2();
+    	Conta conta3 = new Conta();
+    	c3.setconta3();
+
+
+    }
+}
